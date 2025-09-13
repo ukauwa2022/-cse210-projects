@@ -1,9 +1,29 @@
 using System;
 
-class Program
+namespace game
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello World! This is the Exercise2 Project.");
+        static void Main(string[] args)
+        {
+            Console.Write("Enter number:  ");
+            string valueFromUser = Console.ReadLine();
+
+            int x = 5;
+            int y = 2;
+
+            if (x > y)
+            {
+                Console.WriteLine("Greater");
+            }
+            else if (x < y)
+            {
+                Console.WriteLine("less");
+            }
+            else
+            {
+                Console.WriteLine("Equal");
+            }
+        }
     }
 }
